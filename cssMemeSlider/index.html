@@ -5,38 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <title>CssMemeSlider</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="wrapper">
-            <div class="slides">
-                    <img src="./assets/images/meme2.png" id="slide-1" alt="a meme about books">
-                    <img src="./assets/images/meme3.png" id="slide-2" alt="a meme about a bug">
-                    <img src="./assets/images/meme5.png" id="slide-3" alt="a meme about an introvert">
-                    <img src="./assets/images/meme8.png" id="slide-4" alt="a cheerup meme">
-                    <img src="./assets/images/meme9.png" id="slide-5" alt="a cool baby meme">
+    <div class="slider">
+        <input type="radio" name="radiobtns" id="button-first" checked>
+        <input type="radio" name="radiobtns" id="button-second">
+        <input type="radio" name="radiobtns" id="button-third">
+        <input type="radio" name="radiobtns" id="button-forth">
+        <input type="radio" name="radiobtns" id="button-fifth">
+
+        <div class="slides">
+            <div class="slide">
+                <img src="./assets/images/meme2.png" id="slide1" alt="a meme about books">
             </div>
-            <ul class="controls">
-                <li class="list-item">
-                    <a href="#slide-1"><p>I have too many books</p></a>
-                </li>
-                <li class="list-item">
-                    <a href="#slide-2"><p>The bug life chose me</p></a>
-                </li>
-                <li class="list-item">
-                    <a href="#slide-3"><p>Me after a day of peopling</p></a>
-                </li>
-                <li class="list-item">
-                    <a href="#slide-4"><p>You got this!</p></a>
-                </li>
-                <li class="list-item">
-                    <a href="#slide-5"><p>Are you talking to me?</p></a>
-                </li>
-            </ul>
+            <div class="slide">
+                <img src="./assets/images/meme3.png" id="slide2" alt="a meme about a bug">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/meme5.png" id="slide3" alt="a meme about an introvert">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/meme8.png" id="slide4" alt="a cheerup meme">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/meme9.png" id="slide5" alt="a cool baby meme">
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="texts">
+                <div class="text-container">
+                    <p id="text-first">I have too many books</p>
+                    <p id="text-second">The bug life chose me</p>
+                    <p id="text-third">Me after a day of peopling</p>
+                    <p id="text-forth">You got this!</p>
+                    <p id="text-fifth">Are you talking to me?</p>
+                </div>
+            </div>
+
+            <div class="radiobuttons">
+                <label for="button-first" class="control"></label>
+                <label for="button-second" class="control"></label>
+                <label for="button-third" class="control"></label>
+                <label for="button-forth" class="control"></label>
+                <label for="button-fifth" class="control"></label>
+            </div>
         </div>
     </div>
 </body>
