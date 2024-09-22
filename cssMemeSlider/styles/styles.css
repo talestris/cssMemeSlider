@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #04044d75;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 70rem;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    max-height: 80vh;
+    transition: transform 0.3s ease;
+}
+
+.slide {
+    min-width: 100%;
+    text-align: center;
+    border: 5px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.texts {
+    width: 100%;
+    overflow: hidden;
+    height: 2%;
+}
+
+.text-container {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.texts p{
+    font-size: 1.5em;
+    min-width: 100%;
+    padding: 1em 0;
+    color: beige;
+    text-align: left;
+}
+
+input#button-first:checked~.controls .text-container {
+    transform: translate(0%);
+}
+
+input#button-second:checked~.controls .text-container {
+    transform: translate(-100%);
+}
+
+input#button-third:checked~.controls .text-container {
+    transform: translate(-200%);
+}
+
+input#button-forth:checked~.controls .text-container {
+    transform: translate(-300%);
+}
+
+input#button-fifth:checked~.controls .text-container {
+    transform: translate(-400%);
+}
+
+input#button-first:checked~.controls #text-first,
+input#button-second:checked~.controls #text-second,
+input#button-third:checked~.controls #text-third,
+input#button-forth:checked~.controls #text-forth,
+input#button-fifth:checked~.controls #text-fifth {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.radiobuttons {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+.control {
+    position: relative;
+    width: 2em;
+    height: 2em;
+    background-color: #b8860b;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+    margin: 0 10px;
+}
+
+.control::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: transparent;
+    z-index: 0;
+}
+
+.control:hover {
+    background-color: rgb(121, 88, 6);
+}
+
+input#button-first:checked~.controls .radiobuttons label[for="button-first"],
+input#button-second:checked~.controls .radiobuttons label[for="button-second"],
+input#button-third:checked~.controls .radiobuttons label[for="button-third"],
+input#button-forth:checked~.controls .radiobuttons label[for="button-forth"],
+input#button-fifth:checked~.controls .radiobuttons label[for="button-fifth"] {
+    background-color: transparent;
+    border: 3px solid rgb(184, 134, 10);
+}
+
+input#button-first:checked~.controls .radiobuttons label[for="button-first"]:hover,
+input#button-second:checked~.controls .radiobuttons label[for="button-second"]:hover,
+input#button-third:checked~.controls .radiobuttons label[for="button-third"]:hover,
+input#button-forth:checked~.controls .radiobuttons label[for="button-forth"]:hover,
+input#button-fifth:checked~.controls .radiobuttons label[for="button-fifth"]:hover {
+    border: 2px solid rgb(121, 88, 6);
+}
+
+input#button-first:checked~.slides {
+    transform: translateX(0%);
+}
+
+input#button-second:checked~.slides {
+    transform: translateX(-100%);
+}
+
+input#button-third:checked~.slides {
+    transform: translateX(-200%);
+}
+
+input#button-forth:checked~.slides {
+    transform: translateX(-300%);
+}
+
+input#button-fifth:checked~.slides {
+    transform: translateX(-400%);
+}
+
+input#button-first:checked~.controls #text-first,
+input#button-second:checked~.controls #text-second,
+input#button-third:checked~.controls #text-third,
+input#button-forth:checked~.controls #text-forth,
+input#button-fifth:checked~.controls #text-fifth {
+    display: block;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+    .slider {
+        width: 85%;
+    }
+
+    .controls {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .radiobuttons {
+        justify-content: center;
+        margin-top: 0.7em;
+    }
+
+    .texts {
+        width: 100%;
+    }
+
+    .texts p {
+        text-align: left;
+    }
+}
