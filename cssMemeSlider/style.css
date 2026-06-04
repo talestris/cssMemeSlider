@@ -27,6 +27,7 @@ input[type="radio"] {
 
 .slider-controls {
   display: flex;
+  justify-content: space-between;
 }
 
 .captions-container {
@@ -46,34 +47,35 @@ input[type="radio"] {
 
 .controls-container {
   display: flex;
-  width: 50%;
+  width: 30%;
   justify-content: flex-end;
   align-items: center;
+  gap: 0.313rem;
 }
 
 #slide_1:checked ~ .slider-body .slides {
   transform: translateX(0%);
 }
 #slide_2:checked ~ .slider-body .slides {
-  transform: translateX(-12.5%);
-}
-#slide_3:checked ~ .slider-body .slides {
   transform: translateX(-25%);
 }
-#slide_4:checked ~ .slider-body .slides {
-  transform: translateX(-37.5%);
-}
-#slide_5:checked ~ .slider-body .slides {
+#slide_3:checked ~ .slider-body .slides {
   transform: translateX(-50%);
 }
-#slide_6:checked ~ .slider-body .slides {
-  transform: translateX(-62.5%);
-}
-#slide_7:checked ~ .slider-body .slides {
+#slide_4:checked ~ .slider-body .slides {
   transform: translateX(-75%);
 }
+#slide_5:checked ~ .slider-body .slides {
+  transform: translateX(-100%);
+}
+#slide_6:checked ~ .slider-body .slides {
+  transform: translateX(-125%);
+}
+#slide_7:checked ~ .slider-body .slides {
+  transform: translateX(-150%);
+}
 #slide_8:checked ~ .slider-body .slides {
-  transform: translateX(-87.5%);
+  transform: translateX(-175%);
 }
 
 #slide_1:checked ~ .slider-controls .txt_1,
@@ -100,10 +102,10 @@ input[type="radio"] {
   border-color: #3b82f6;
 }
 
-.control-space {
-  width: 1.5rem;
-  height: 1.5rem;
-  padding: 1.5rem;
+.control_space {
+  width: 0.2rem;
+  height: 0.2rem;
+  padding: 1rem;
   cursor: pointer;
   background-clip: content-box;
   border: 0.2rem solid #ccc;
@@ -112,6 +114,6 @@ input[type="radio"] {
   transition: all 0.3s ease;
 }
 
-.control-space:hover {
+.control_space:hover {
   border-color: #3b82f6;
 }
