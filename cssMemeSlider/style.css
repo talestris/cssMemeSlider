@@ -35,7 +35,7 @@ input[type="radio"] {
 
 .slider-controls {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -76,31 +76,15 @@ input[type="radio"] {
 #slide_2:checked ~ .slider-body .slides {
   transform: translateX(-25%);
 }
-#slide_3:checked ~ .slider-body .slides {
+#slide_7:checked ~ .slider-body .slides {
   transform: translateX(-50%);
 }
-#slide_4:checked ~ .slider-body .slides {
-  transform: translateX(-75%);
-}
-#slide_5:checked ~ .slider-body .slides {
-  transform: translateX(-100%);
-}
-#slide_6:checked ~ .slider-body .slides {
-  transform: translateX(-125%);
-}
-#slide_7:checked ~ .slider-body .slides {
-  transform: translateX(-150%);
-}
 #slide_8:checked ~ .slider-body .slides {
-  transform: translateX(-175%);
+  transform: translateX(-75%);
 }
 
 #slide_1:checked ~ .slider-controls .txt_1,
 #slide_2:checked ~ .slider-controls .txt_2,
-#slide_3:checked ~ .slider-controls .txt_3,
-#slide_4:checked ~ .slider-controls .txt_4,
-#slide_5:checked ~ .slider-controls .txt_5,
-#slide_6:checked ~ .slider-controls .txt_6,
 #slide_7:checked ~ .slider-controls .txt_7,
 #slide_8:checked ~ .slider-controls .txt_8 {
   opacity: 1;
@@ -109,10 +93,6 @@ input[type="radio"] {
 
 #slide_1:checked ~ .slider-controls .btn_1,
 #slide_2:checked ~ .slider-controls .btn_2,
-#slide_3:checked ~ .slider-controls .btn_3,
-#slide_4:checked ~ .slider-controls .btn_4,
-#slide_5:checked ~ .slider-controls .btn_5,
-#slide_6:checked ~ .slider-controls .btn_6,
 #slide_7:checked ~ .slider-controls .btn_7,
 #slide_8:checked ~ .slider-controls .btn_8 {
   background-color: #3b82f6;
