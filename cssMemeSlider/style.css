@@ -155,8 +155,24 @@ input[type="radio"] {
 
 @media (max-width: 768px) {
   .slider-controls {
-    flex-direction: column-reverse;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    width: 100%;
+    gap: 1.5rem;
+  }
+
+  .controls-container {
+    grid-row: 1;
+    justify-self: center;
+    width: auto;
+    gap: 0.1rem;
+  }
+
+  .captions-container {
+    grid-row: 2;
+    justify-items: start;
+    text-align: left;
   }
 }
 
@@ -165,20 +181,15 @@ input[type="radio"] {
     font-size: 0.75em;
   }
 
-  .controls-container {
-    width: 50%;
-    justify-content: space-around;
-  }
-
   .control_space {
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 3rem;
+    height: 3rem;
   }
 }
 
 @media (max-width: 470px) {
   .controls-container {
-    width: 65%;
+    width: auto;
   }
 }
 
@@ -187,12 +198,8 @@ input[type="radio"] {
     font-size: 0.6rem;
   }
 
-  .controls-container {
-    width: 90%;
-  }
-
   .control_space {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
   }
 }
