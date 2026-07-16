@@ -1,0 +1,217 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: url("./assets/fonts/Montserrat-Regular.woff2") format("woff2");
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 60rem;
+  width: 100%;
+  background-color: #c4808a;
+  border: 0.3rem solid #82464f;
+  border-radius: 1.25rem;
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 50rem;
+  width: 100%;
+  margin-inline: auto;
+  padding: 4rem;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.slider-body {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  width: 400%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 25%;
+  height: auto;
+  object-fit: cover;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.captions-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.caption {
+  grid-area: 1 / 1;
+  opacity: 0;
+  visibility: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  line-height: 150%;
+  transition:
+    opacity 0.5s ease-in-out,
+    visibility 0.5s;
+}
+
+.controls-container {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+#slide_1:checked ~ .slider-body .slides {
+  transform: translateX(0%);
+}
+#slide_2:checked ~ .slider-body .slides {
+  transform: translateX(-25%);
+}
+#slide_7:checked ~ .slider-body .slides {
+  transform: translateX(-50%);
+}
+#slide_8:checked ~ .slider-body .slides {
+  transform: translateX(-75%);
+}
+
+#slide_1:checked ~ .slider-controls .txt_1,
+#slide_2:checked ~ .slider-controls .txt_2,
+#slide_7:checked ~ .slider-controls .txt_7,
+#slide_8:checked ~ .slider-controls .txt_8 {
+  opacity: 1;
+  visibility: visible;
+}
+
+#slide_1:checked ~ .slider-controls .btn_1,
+#slide_2:checked ~ .slider-controls .btn_2,
+#slide_7:checked ~ .slider-controls .btn_7,
+#slide_8:checked ~ .slider-controls .btn_8 {
+  box-shadow: inset 0 0 0 0.2rem #197052;
+  background-color: transparent;
+}
+
+#slide_1:checked:hover ~ .slider-controls .btn_1,
+#slide_2:checked:hover ~ .slider-controls .btn_2,
+#slide_7:checked:hover ~ .slider-controls .btn_7,
+#slide_8:checked:hover ~ .slider-controls .btn_8 {
+  box-shadow: inset 0 0 0 0.2rem #ecf078;
+  background-color: transparent;
+}
+
+.control_space {
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 0.3rem solid transparent;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 0.2rem #197052;
+  background-color: #197052;
+  background-clip: padding-box;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.control_space:hover {
+  box-shadow: inset 0 0 0 0.2rem #ecf078;
+  background-color: #ecf078;
+}
+
+.control_space:active {
+  box-shadow: inset 0 0 0 0.2rem #ecf078;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .slider-container {
+    gap: 0.3rem;
+  }
+
+  .slider-controls {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .controls-container {
+    grid-row: 1;
+    justify-self: center;
+    width: auto;
+    gap: 0.1rem;
+  }
+
+  .captions-container {
+    grid-row: 2;
+    justify-items: start;
+    text-align: left;
+  }
+
+  .caption {
+    font-size: 0.55rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .slider-container {
+    gap: 0.5rem;
+  }
+
+  .controls-container {
+    width: auto;
+  }
+
+  .slider-controls {
+    gap: 0.8rem;
+  }
+
+  .caption {
+    font-size: 0.4em;
+  }
+
+  .control_space {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0.35rem solid transparent;
+  }
+}
+
+@media (max-width: 368px) {
+  .control_space {
+    width: 0.3rem;
+    height: 0.3rem;
+    border: 0.1rem solid transparent;
+  }
+}

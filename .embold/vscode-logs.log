@@ -1,0 +1,175 @@
+2026-06-02 20:30:16 info: Congratulations, your extension "Embold" is now active!
+2026-06-02 20:30:16 info: ************* init ****************
+2026-06-02 20:30:16 info: tempDirectory : c:\Users\Acer\.vscode\extensions\embold-vscode.embold-0.3.8\temp
+2026-06-02 20:30:25 info: Extraction complete for source: c:\Users\Acer\.vscode\extensions\embold-vscode.embold-0.3.8\resources\embold-scanner-archive.zip, destination: c:\Users\Acer\.vscode\extensions\embold-vscode.embold-0.3.8\temp
+2026-06-02 20:30:25 info: Extension installed on machine OS : win32
+2026-06-02 20:30:25 info: Loading issues from local database on startup (checkbox unchecked)
+2026-06-02 20:30:25 info: Using emboldDBDir: d:\Documents\Lesya\Rolling Scopes\summer_bootcamp_2026\cssMemeSlider\.embold
+2026-06-02 20:30:25 info: NO_PROXY set from VS Code http.noProxy: 
+2026-06-02 20:30:25 info: NODE_TLS_REJECT_UNAUTHORIZED not set (SSL verification enabled)
+2026-06-02 20:30:25 info: Using system certificates for SSL verification
+2026-06-02 20:30:26 info: [STARTUP] Processing 0 total issues from database
+2026-06-02 20:30:26 info: [STARTUP] Issues sorted by file path
+2026-06-02 20:30:26 info: [STARTUP] Complete - Processed: 0, Skipped: 0
+2026-06-02 20:30:26 info: Fetched the issues from DB
+2026-06-02 20:30:26 info: Java version installed on machine : 
+java version "25.0.2" 2026-01-20 LTS
+Java(TM) SE Runtime Environment (build 25.0.2+10-LTS-69)
+Java HotSpot(TM) 64-Bit Server VM (build 25.0.2+10-LTS-69, mixed mode, sharing)
+
+2026-06-02 20:30:26 info: Java installed on machine.
+2026-06-02 20:30:30 info: Row(s) deleted
+2026-06-02 20:30:32 info: Embold extension version response:{"hasSupport":false,"version":"0.2.1","changeNotes":"<div> <p>Release Date: 30 Apr, 2025 <br><span>Bug fixes and improvements.</span></p> </div>"}
+2026-06-02 20:30:32 info: Current installed embold extension version : 0.3.8
+2026-06-02 20:30:32 info: Latest embold extension version on marketplace : 0.2.1
+2026-06-02 20:30:32 info: Current extension version: 0.3.8
+2026-06-02 20:30:32 info: Stored extension version: 0.3.8
+2026-06-02 20:30:32 info: No new installation or upgrade detected. Skipping plugin activation tracking.
+2026-06-02 20:33:34 info: Row(s) deleted
+2026-06-02 20:33:37 info: Row(s) deleted
+2026-06-02 20:34:39 info: Row(s) deleted
+2026-06-02 20:40:29 info: Row(s) deleted
+2026-06-02 20:40:36 info: Row(s) deleted
+2026-06-02 20:41:20 info: Row(s) deleted
+2026-06-02 20:44:32 info: Row(s) deleted
+2026-06-02 20:47:38 info: Row(s) deleted
+2026-06-02 20:50:43 info: Row(s) deleted
+2026-06-02 21:29:49 info: Row(s) deleted
+2026-06-03 13:18:13 info: Row(s) deleted
+2026-06-03 13:19:51 info: Row(s) deleted
+2026-06-03 13:21:10 info: Row(s) deleted
+2026-06-03 13:21:28 info: Row(s) deleted
+2026-06-03 22:28:53 info: Congratulations, your extension "Embold" is now active!
+2026-06-03 22:28:53 info: ************* init ****************
+2026-06-03 22:28:53 info: tempDirectory : c:\Users\Acer\.vscode\extensions\embold-vscode.embold-0.3.8\temp
+2026-06-03 22:29:11 info: Extraction complete for source: c:\Users\Acer\.vscode\extensions\embold-vscode.embold-0.3.8\resources\embold-scanner-archive.zip, destination: c:\Users\Acer\.vscode\extensions\embold-vscode.embold-0.3.8\temp
+2026-06-03 22:29:11 info: Extension installed on machine OS : win32
+2026-06-03 22:29:11 info: Loading issues from local database on startup (checkbox unchecked)
+2026-06-03 22:29:11 info: Using emboldDBDir: d:\Documents\Lesya\Rolling Scopes\summer_bootcamp_2026\cssMemeSlider\.embold
+2026-06-03 22:29:11 info: NO_PROXY set from VS Code http.noProxy: 
+2026-06-03 22:29:11 info: NODE_TLS_REJECT_UNAUTHORIZED not set (SSL verification enabled)
+2026-06-03 22:29:11 info: Using system certificates for SSL verification
+2026-06-03 22:29:11 info: [STARTUP] Processing 0 total issues from database
+2026-06-03 22:29:11 info: [STARTUP] Issues sorted by file path
+2026-06-03 22:29:11 info: [STARTUP] Complete - Processed: 0, Skipped: 0
+2026-06-03 22:29:11 info: Fetched the issues from DB
+2026-06-03 22:29:16 info: Java version installed on machine : 
+java version "25.0.2" 2026-01-20 LTS
+Java(TM) SE Runtime Environment (build 25.0.2+10-LTS-69)
+Java HotSpot(TM) 64-Bit Server VM (build 25.0.2+10-LTS-69, mixed mode, sharing)
+
+2026-06-03 22:29:16 info: Java installed on machine.
+2026-06-03 22:29:16 info: Embold extension version response:{"hasSupport":false,"version":"0.2.1","changeNotes":"<div> <p>Release Date: 30 Apr, 2025 <br><span>Bug fixes and improvements.</span></p> </div>"}
+2026-06-03 22:29:16 info: Current installed embold extension version : 0.3.8
+2026-06-03 22:29:16 info: Latest embold extension version on marketplace : 0.2.1
+2026-06-03 22:29:16 info: Current extension version: 0.3.8
+2026-06-03 22:29:16 info: Stored extension version: 0.3.8
+2026-06-03 22:29:16 info: No new installation or upgrade detected. Skipping plugin activation tracking.
+2026-06-03 22:44:11 info: Row(s) deleted
+2026-06-03 22:44:44 info: Row(s) deleted
+2026-06-03 22:45:44 info: Row(s) deleted
+2026-06-03 22:46:07 info: Row(s) deleted
+2026-06-03 22:47:16 info: Row(s) deleted
+2026-06-03 22:50:21 info: Row(s) deleted
+2026-06-03 22:53:27 info: Row(s) deleted
+2026-06-03 22:56:32 info: Row(s) deleted
+2026-06-03 23:02:41 info: Row(s) deleted
+2026-06-03 23:05:46 info: Row(s) deleted
+2026-06-03 23:08:51 info: Row(s) deleted
+2026-06-03 23:28:33 info: Row(s) deleted
+2026-06-03 23:32:11 info: Row(s) deleted
+2026-06-03 23:38:35 info: Row(s) deleted
+2026-06-03 23:41:45 info: Row(s) deleted
+2026-06-03 23:43:55 info: Row(s) deleted
+2026-06-03 23:44:28 info: Row(s) deleted
+2026-06-03 23:44:50 info: Row(s) deleted
+2026-06-04 18:53:01 info: Row(s) deleted
+2026-06-04 18:59:11 info: Row(s) deleted
+2026-06-04 19:05:22 info: Row(s) deleted
+2026-06-04 19:08:32 info: Row(s) deleted
+2026-06-04 19:11:37 info: Row(s) deleted
+2026-06-04 19:17:49 info: Row(s) deleted
+2026-06-04 19:21:19 info: Row(s) deleted
+2026-06-04 19:24:24 info: Row(s) deleted
+2026-06-04 19:38:50 info: Row(s) deleted
+2026-06-04 19:38:50 info: Row(s) deleted
+2026-06-04 19:38:50 info: Row(s) deleted
+2026-06-04 19:38:50 info: Row(s) deleted
+2026-06-04 19:38:50 info: Row(s) deleted
+2026-06-04 19:38:50 info: Row(s) deleted
+2026-06-04 19:38:50 info: Row(s) deleted
+2026-06-04 19:38:50 info: Row(s) deleted
+2026-06-04 20:13:53 info: Row(s) deleted
+2026-06-04 20:27:12 info: Row(s) deleted
+2026-06-04 23:08:12 info: Row(s) deleted
+2026-06-04 23:14:23 info: Row(s) deleted
+2026-06-04 23:20:19 info: Row(s) deleted
+2026-06-04 23:20:38 info: Row(s) deleted
+2026-06-04 23:20:45 info: Row(s) deleted
+2026-06-04 23:20:54 info: Row(s) deleted
+2026-06-04 23:31:50 info: Row(s) deleted
+2026-06-04 23:37:50 info: Row(s) deleted
+2026-06-04 23:39:37 info: Row(s) deleted
+2026-06-04 23:40:12 info: Row(s) deleted
+2026-06-05 00:03:15 info: Row(s) deleted
+2026-06-05 00:10:48 info: Row(s) deleted
+2026-06-05 18:51:46 info: Row(s) deleted
+2026-06-05 18:55:12 info: Row(s) deleted
+2026-06-05 19:05:08 info: Row(s) deleted
+2026-06-05 19:06:05 info: Row(s) deleted
+2026-06-05 19:06:14 info: Row(s) deleted
+2026-06-05 19:06:30 info: Row(s) deleted
+2026-06-05 19:16:23 info: Row(s) deleted
+2026-06-05 19:19:56 info: Row(s) deleted
+2026-06-05 19:21:03 info: Row(s) deleted
+2026-06-05 19:21:14 info: Row(s) deleted
+2026-06-05 19:29:22 info: Row(s) deleted
+2026-06-05 19:35:28 info: Row(s) deleted
+2026-06-05 19:46:06 info: Row(s) deleted
+2026-06-05 20:34:00 info: Row(s) deleted
+2026-06-05 20:57:45 info: Row(s) deleted
+2026-06-05 20:58:16 info: Row(s) deleted
+2026-06-05 20:58:52 info: Row(s) deleted
+2026-06-05 20:59:01 info: Row(s) deleted
+2026-06-05 21:48:34 info: Row(s) deleted
+2026-06-05 21:59:37 info: Row(s) deleted
+2026-06-05 22:07:29 info: Row(s) deleted
+2026-06-05 22:15:16 info: Row(s) deleted
+2026-06-05 23:31:51 info: Row(s) deleted
+2026-06-05 23:36:17 info: Row(s) deleted
+2026-06-05 23:52:10 info: Row(s) deleted
+2026-06-05 23:55:16 info: Row(s) deleted
+2026-06-06 00:10:40 info: Row(s) deleted
+2026-06-06 00:27:40 info: Row(s) deleted
+2026-06-06 00:35:19 info: Row(s) deleted
+2026-06-06 00:38:23 info: Row(s) deleted
+2026-06-06 00:43:14 info: Row(s) deleted
+2026-06-06 00:44:02 info: Row(s) deleted
+2026-06-06 00:44:17 info: Row(s) deleted
+2026-06-06 00:50:58 info: Row(s) deleted
+2026-06-06 21:28:20 info: Row(s) deleted
+2026-06-06 21:31:27 info: Row(s) deleted
+2026-06-06 21:44:31 info: Row(s) deleted
+2026-06-06 21:50:44 info: Row(s) deleted
+2026-06-06 21:53:52 info: Row(s) deleted
+2026-06-06 22:09:29 info: Row(s) deleted
+2026-06-06 22:15:42 info: Row(s) deleted
+2026-06-06 22:19:59 info: Row(s) deleted
+2026-06-06 22:26:46 info: Row(s) deleted
+2026-06-06 22:27:28 info: Row(s) deleted
+2026-06-06 22:27:41 info: Row(s) deleted
+2026-06-07 00:10:35 info: Row(s) deleted
+2026-06-07 00:21:23 info: Row(s) deleted
+2026-06-07 00:24:30 info: Row(s) deleted
+2026-06-07 00:27:25 info: Row(s) deleted
+2026-06-07 00:29:11 info: Row(s) deleted
+2026-06-07 00:29:27 info: Row(s) deleted
+2026-06-07 00:40:42 info: Row(s) deleted
+2026-06-07 00:47:29 info: Row(s) deleted
+2026-06-07 00:55:01 info: Row(s) deleted
+2026-06-07 01:01:30 info: Row(s) deleted
+2026-06-07 01:07:41 info: Row(s) deleted
+2026-06-07 01:10:48 info: Row(s) deleted
+2026-06-07 01:13:52 info: Row(s) deleted
+2026-06-07 01:16:57 info: Row(s) deleted
+2026-06-07 01:20:56 info: Row(s) deleted
